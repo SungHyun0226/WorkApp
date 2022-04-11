@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="아이디"
+        android:drawableStart="@drawable/ic_baseline_person_24"
         android:inputType="textPersonName" />
 
     <EditText
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="비밀번호"
+        android:drawableStart="@drawable/ic_baseline_https_24"
         android:inputType="textPassword" />
 
     <RadioGroup
