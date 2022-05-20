@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_company_joblist.xml" value="0.1953125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_company_joblist.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_company_mypage.xml" value="0.1953125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_company_participant.xml" value="0.1953125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_company_recruit.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_company_register.xml" value="0.4" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_companymain.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_participant_mypage.xml" value="0.1953125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_participant_status.xml" value="0.1953125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_recruit.xml" value="0.18596491228070175" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_recruit_write.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/activity_second.xml" value="0.16" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/WorkApp/app/src/main/res/layout/recruit_item.xml" value="0.1" />
@@ -26,5 +28,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
   </component>
 </project>

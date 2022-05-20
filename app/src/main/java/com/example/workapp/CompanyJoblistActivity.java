@@ -44,9 +44,9 @@ public class CompanyJoblistActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_participant_joblist);
+        setContentView(R.layout.activity_company_joblist);
 
-        mRecruits = (RecyclerView) findViewById(R.id.recruit_rcview);
+        mRecruits = (RecyclerView) findViewById(R.id.recruit_rcview2);
 
         mAdapter = new RecruitListAdapter(RecruitList2);
 
@@ -62,7 +62,7 @@ public class CompanyJoblistActivity extends AppCompatActivity {
         mRecruits.setAdapter(mAdapter);
         mRecruits.setLayoutManager(new LinearLayoutManager(this));
 
-        Button companySortButton= (Button) findViewById(R.id.bt_company);
+        Button companySortButton= (Button) findViewById(R.id.bt_company2);
         companySortButton.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -74,12 +74,20 @@ public class CompanyJoblistActivity extends AppCompatActivity {
                 mAdapter.notifyDataSetChanged();
             }
         });
-        Button titleSortButton= (Button) findViewById(R.id.bt_title);
+        Button titleSortButton= (Button) findViewById(R.id.bt_title2);
         titleSortButton.setOnClickListener(view -> {
             Collections.sort(RecruitList2, (obj1, obj2) -> obj1.getTitle().compareToIgnoreCase(obj2.getTitle()));
             mAdapter.notifyDataSetChanged();
         });
-        EditText recruitSearch = findViewById(R.id.et_recruitsearch);
+        Button recruitWriteButton = (Button) findViewById(R.id.recruit_Write);
+        recruitWriteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(CompanyJoblistActivity.this, RecruitWriteActivity.class);
+                startActivity(myIntent);
+            }
+        });
+        EditText recruitSearch = findViewById(R.id.et_recruitsearch2);
         recruitSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
